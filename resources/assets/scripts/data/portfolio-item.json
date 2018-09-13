@@ -1,0 +1,18 @@
+[
+	"explore-north-myrtle-beach" {
+		"title" : "Explore North Myrtle Beach",
+		"url" : "https://www.explorenorthmyrtlebeach.com/",
+		"date" : "2015-01",
+		"task" : "Server Build and Maintaince, Migrate from old server to new server, Front end, Back end and API development",
+		"thumbnail" : "/images/portfolio/posadshawl.jpg"
+	},
+	"touchmed-spa" {
+		"title" : "Tiger Census",
+		"url" : "http://tigercensus.com/",
+		"date" : "2011-01",
+		"slug" : "/portfolio/tiger-census/",
+		"task" : "Front-end and Back-end development",
+		"thumbnail" : "/images/portfolio/tigercensus.jpg"
+	}
+]
+

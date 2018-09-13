@@ -1,0 +1,34 @@
+[
+	{
+		"title" : "Explore North Myrtle Beach",
+		"url" : "https://www.explorenorthmyrtlebeach.com/",
+		"date" : "2015-01",
+		"task" : "Server Build and Maintaince, Migrate from old server to new server, Front end, Back end and API development",
+		"slug" : "/portfolio/explore-north-myrtle-beach/",
+		"thumbnail" : "https://res.cloudinary.com/crigger-assets/image/upload/v1536795472/screenshots/explore-thumb.jpg"
+	},
+	{
+		"title" : "Tiger Census",
+		"url" : "http://tigercensus.com/",
+		"date" : "2011-01",
+		"slug" : "/portfolio/tiger-census/",
+		"task" : "Front-end and Back-end development",
+		"thumbnail" : "https://res.cloudinary.com/crigger-assets/image/upload/v1536787652/screenshots/tigercenus-thumb.jpg"
+	},
+	{
+		"title" : "Alabama Theatre",
+		"url" : "https://www.alabama-theatre.com/",
+		"date" : "2016-04",
+		"slug" : "/portfolio/alabama-theatre/",
+		"task" : "Front-end and Back-end development",
+		"thumbnail" : "https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/alabama-theatre-calendar-thumb.jpg"
+	},
+	{
+		"title" : "Code Examples",
+		"url" : "https://gist.github.com/shawncrigger/",
+		"date" : "2018-03",
+		"slug" : "/portfolio/explore-north-myrtle-beach/",
+		"task" : "Code Examples",
+		"thumbnail" : "https://res.cloudinary.com/crigger-assets/image/upload/v1536857458/screenshots/code-examples.jpg"
+	}
+]
