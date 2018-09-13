@@ -23,7 +23,7 @@ class PortfolioController extends Controller
     public function show($slug='')
     {
     	$site = DB::table('portfolio')->where('slug', $slug)->first();
-    	dd($site);
+    	return response()->json( $site );
     }
 
     // ------------------------------------------------------------------------
