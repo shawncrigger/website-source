@@ -17,10 +17,11 @@ class CreatePortfolio extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('slug')->unique();
+            $table->string('url');
             $table->string('thumbnail');
-            $table->dateTime('year_created');
-            $table->string('tasks');
-            $table->text('description');
+            $table->dateTime('year_created')->nullable();
+            $table->string('tasks')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

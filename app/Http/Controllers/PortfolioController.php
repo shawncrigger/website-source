@@ -1,6 +1,10 @@
 <?php
 
+
+
 namespace App\Http\Controllers;
+
+use Illuminate\Support\Facades\DB;
 
 class PortfolioController extends Controller
 {
@@ -18,7 +22,8 @@ class PortfolioController extends Controller
 
     public function show($slug='')
     {
-    	dd($slug);
+    	$users = DB::table('portfolio')->get();
+    	dd($users);
     }
 
     // ------------------------------------------------------------------------

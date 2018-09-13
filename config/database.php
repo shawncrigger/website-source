@@ -1,11 +1,20 @@
 <?php
 
-$url = parse_url(getenv("DATABASE_URL"));
+if ( 'local' == getenv('APP_ENV') ) :
 
-$host = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$database = substr($url["path"], 1);
+    $host     = env('DB_HOST', 'localhost');
+    $database = env('DB_DATABASE', 'homestead');
+    $username = env('DB_USERNAME', 'homestead');
+    $password = env('DB_PASSWORD', 'secret');
+else :
+    $url = parse_url(getenv("DATABASE_URL"));
+
+    $host = $url["host"];
+    $username = $url["user"];
+    $password = $url["pass"];
+    $database = substr($url["path"], 1);
+
+endif;
 
 return [
 

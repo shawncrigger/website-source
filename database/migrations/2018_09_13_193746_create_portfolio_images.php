@@ -15,6 +15,7 @@ class CreatePortfolioImages extends Migration
     {
         Schema::create('portfolio_images', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('pid');
             $table->foreign('pid')->references('id')->on('portfolio');
             $table->string('image');
             $table->integer('order');
