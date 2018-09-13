@@ -22,8 +22,17 @@ class PortfolioController extends Controller
 
     public function show($slug='')
     {
-    	$users = DB::table('portfolio')->get();
-    	dd($users);
+    	$site = DB::table('portfolio')->where('slug', $slug)->first();
+    	dd($site);
+    }
+
+    // ------------------------------------------------------------------------
+
+    public function fetchAll()
+    {
+    	$sites = DB::table('portfolio')->get();
+    	//$sites = json_encode( $sites, JSON_PRETTY_PRINT );
+    	return response()->json( $sites );
     }
 
     // ------------------------------------------------------------------------

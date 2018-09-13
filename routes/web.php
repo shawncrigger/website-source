@@ -14,7 +14,7 @@
 */
 
 $app->post('/api/contact', 'ContactFormController@sendForm');
-
+$app->get('/portfolio/fetch_all', 'PortfolioController@fetchAll');
 $app->get('/portfolio/{slug}', 'PortfolioController@show');
 
 $app->get('/{any:.*}', function(){
