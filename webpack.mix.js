@@ -14,7 +14,7 @@ let mix = require('laravel-mix');
 mix.browserSync({
 	host: 'localhost',
     port: 3000,
-    proxy: 'emils.dev',
+    proxy: 'portfolio.local',
     files: [
         'resources/views/*.blade.php',
         'public/**/*.js',

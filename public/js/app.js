@@ -2405,8 +2405,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__data_portfolio_json__ = __webpack_require__("./resources/assets/scripts/data/portfolio.json");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__data_portfolio_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__data_portfolio_json__);
 //
 //
 //
@@ -2424,22 +2422,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 	data: function data() {
 		return {
-			portfolioItems: __WEBPACK_IMPORTED_MODULE_0__data_portfolio_json___default.a
+			website: []
 		};
 	},
-
+	created: function created() {
+		var _this = this;
+		var slug = this.$route.params.slug;
+		$.getJSON('/api/portfolio/' + slug, function (json) {
+			_this.website = json;
+		});
+		console.log(json);
+	},
 	computed: {
-		items: function items() {
-			return _.orderBy(this.portfolioItems, ['date'], ['desc']);
+		images: function images() {
+			return this.website.images;
 		}
 	}
 });
@@ -38633,49 +38633,51 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("h1", { staticClass: "title" }, [
-      _vm._v(_vm._s(_vm.$route.params.slug))
-    ]),
+    _c("h1", { staticClass: "title" }, [_vm._v(_vm._s(_vm.website.title))]),
     _vm._v(" "),
     _c(
       "div",
       { staticClass: "row no-gutters portfolio" },
-      _vm._l(_vm.items, function(item) {
-        return _c(
-          "div",
-          { staticClass: "col-md-6 col-lg-6 col-xl-4 col-xxl-6" },
-          [
-            _c(
-              "div",
-              {
+      [
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._l(_vm.images, function(item) {
+          return _c(
+            "div",
+            { staticClass: "col-md-6 col-lg-6 col-xl-4 col-xxl-6" },
+            [
+              _c("div", {
                 staticClass: "portfolio__item",
-                style: { "background-image": "url(" + item.thumbnail + ")" }
-              },
-              [
-                _c("div", { staticClass: "item__content" }, [
-                  _c("p", { staticClass: "item__title" }, [
-                    _c("a", { attrs: { href: item.url, target: "_blank" } }, [
-                      _c("i", { staticClass: "fa fa-link" }),
-                      _vm._v(" "),
-                      _c("span", [_vm._v(_vm._s(item.title))])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "clearfix" }),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "item__desc" }, [
-                    _vm._v(_vm._s(item.task))
-                  ])
-                ])
-              ]
-            )
-          ]
-        )
-      })
+                style: { "background-image": "url(" + item + ")" }
+              })
+            ]
+          )
+        })
+      ],
+      2
     )
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "col-md-12 col-lg-12 col-xl-12 col-xxl-12" },
+      [
+        _c("h2", { staticClass: "title" }, [_vm._v("Job Descripition")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-muted" }, [
+          _vm._v(
+            "\n\t\t\tThis project is based on Wordpress using a Custom Theme I wrote, along with a few custom plug-ins and widgets that were created for the project.   The Front Page is widget based which allows the end client to pick what type of content to display on each row and add and remove rows very easily,  there are a couple custom page types and taxonimies for there specials and team members.  Along with a event calendar that required quite a bit of modification. to fit there design.  I built this website without using a responsive framework, and in hindsite I wish I would have used Foundation or Bootstrap or something.\n\t\t\t"
+          )
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
