@@ -24,8 +24,8 @@ class PortfolioController extends Controller
     {
     	$site   = DB::table('portfolio')->where('slug', $slug)->first();
     	$pid    = $site->id;
-    	$thumbs = DB::table('portfolio_images')->where('ˀpid', $id)->where('thumb', 0)->get();
-    	$full   = DB::table('portfolio_images')->where('ˀpid', $id)->where('thumb', 1)->get();
+    	$thumbs = DB::table('portfolio_images')->where('ˀpid', $pid)->where('thumb', 0)->get();
+    	$full   = DB::table('portfolio_images')->where('ˀpid', $pid)->where('thumb', 1)->get();
     	$site->images = array(
     		'thumbs' => $thumbs,
     		'full'   => $full,
