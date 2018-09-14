@@ -22,12 +22,13 @@ class PortfolioController extends Controller
 
     public function show($slug='')
     {
-    	$site = DB::table('portfolio')->where('slug', $slug)->first();
+    	$site   = DB::table('portfolio')->where('slug', $slug)->first();
+    	$pid    = $site->id;
+    	$thumbs = DB::table('portfolio_images')->where('ˀpid', $id)->where('thumb', 0)->get();
+    	$full   = DB::table('portfolio_images')->where('ˀpid', $id)->where('thumb', 1)->get();
     	$site->images = array(
-    		'/images/websites/alabama-theatre-thumb.jpg',
-    		'/images/websites/alabama-theatre-calendar-thumb.jpg',
-    		'/images/websites/explore-stay-thumb.jpg',
-    		'/images/websites/explore-eat-thumb.jpg',
+    		'thumbs' => $thumbs,
+    		'full'   => $full,
     	);
     	return response()->json( $site );
     }
