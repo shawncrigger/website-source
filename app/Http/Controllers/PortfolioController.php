@@ -23,6 +23,12 @@ class PortfolioController extends Controller
     public function show($slug='')
     {
     	$site = DB::table('portfolio')->where('slug', $slug)->first();
+    	$site->images = array(
+    		'/images/websites/alabama-theatre-thumb.jpg',
+    		'/images/websites/alabama-theatre-calendar-thumb.jpg',
+    		'/images/websites/explore-stay-thumb.jpg',
+    		'/images/websites/explore-eat-thumb.jpg',
+    	);
     	return response()->json( $site );
     }
 
