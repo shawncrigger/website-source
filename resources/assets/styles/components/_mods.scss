@@ -90,8 +90,92 @@ p.item-image {
       float: left;
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: top center;
       border: 1px solid #ebebeb;
       margin: 5px;
   }
 }
+
+
+ul.social-icons {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      float: left;
+      width: 100%;
+      display: block;
+    }
+
+    i {
+      vertical-align: text-top;
+      width: 12px;
+      text-align: center;
+      position: relative;
+      top: -8px
+    }
+
+}
+
+ul.social-icons a span:first-child {
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    opacity: .7;
+    transition: opacity .3s, transform .3s
+}
+
+ul.social-icons a.upwork span:first-child i {
+  background: url(https://res.cloudinary.com/crigger-assets/image/upload/v1536789765/logos/upwork-logo.png) no-repeat;
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    margin-left: -7px;
+    margin-top: -2px;
+}
+
+ul.social-icons a.upwork span:first-child {
+  background: #FFF;
+}
+ul.social-icons a.github span:first-child {
+  background: #000;
+}
+
+.social-icons a:active span:first-child,
+.social-icons a:focus span:first-child,
+.social-icons a:hover span:first-child {
+    opacity: 1;
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.social-icons a.twitter span:first-child {
+    background: #7ac9ed
+}
+
+.social-icons a.linkedin span:first-child {
+    background: #0c7bb6
+}
+
+.social-icons a.email span:first-child i {
+    margin-left: 0;
+    top: -7px;
+    font-size: 13px
+}
+
+.social-icons a.email span:first-child {
+    background: #d74d2f
+}
+
+.social-icons a span:last-child {
+  vertical-align: top;
+  font-size: 14px;
+    overflow: hidden;
+    display: inline-block;
+    width: 91%;
+}
+
+.item-muted, .text-muted { font-weight: 300; }

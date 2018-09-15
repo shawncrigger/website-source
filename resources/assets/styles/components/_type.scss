@@ -23,6 +23,17 @@
 	}
 }
 
+h2.title, h3.title {
+    color: inherit;
+    font-size: 2rem;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 20px;
+    -webkit-transition: .25s color;
+    transition: .25s color;
+}
+
 .text-default{
 	font-weight: inherit;
 	font-size: inherit;
@@ -63,7 +74,7 @@
 
 			transform: translateY(-12px);
 			opacity: .2;
-			
+
 			border-bottom: 3px solid $brand-primary;
 			transition: .25s transform, .25s opacity;
 		}

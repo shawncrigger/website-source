@@ -2139,6 +2139,32 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -41962,41 +41988,144 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "list-group" }, [
         _c("div", { staticClass: "list-group-item" }, [
-          _c("p", { staticClass: "item-title" }, [_vm._v("Email")]),
+          _c("h2", { staticClass: "title" }, [_vm._v("I'm Social")]),
           _vm._v(" "),
-          _c("p", [
-            _c("a", { attrs: { href: "mailto:ỉthippyshawn@gmail.com" } }, [
-              _vm._v("ỉthippyshawn@gmail.com")
+          _c("ul", { staticClass: "social-icons" }, [
+            _c("li", [
+              _c(
+                "a",
+                {
+                  staticClass: "twitter",
+                  attrs: {
+                    href: "https://twitter.com/shawncrigger",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", [
+                    _c("i", {
+                      staticClass: "fa fa-tumblr fa-stack-1x fa-inverse"
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("https://twitter.com/shawncrigger")])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
+                {
+                  staticClass: "linkedin",
+                  attrs: {
+                    href: "https://twitter.com/shawncrigger",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", [
+                    _c("i", {
+                      staticClass: "fa fa-linkedin fa-stack-1x fa-inverse"
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [
+                    _vm._v("https://www.linkedin.com/in/shawn-crigger/")
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
+                {
+                  staticClass: "github",
+                  attrs: {
+                    href: "https://github.com/svizion?tab=repositories",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", [
+                    _c("i", {
+                      staticClass: "fa fa-github fa-stack-1x fa-inverse"
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [
+                    _vm._v("https://github.com/svizion?tab=repositories")
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
+                {
+                  staticClass: "upwork",
+                  attrs: {
+                    href:
+                      "https://www.upwork.com/o/profiles/users/_~012c863ad135fdb85f/",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", [_c("i", { staticClass: "upwork" })]),
+                  _vm._v(" "),
+                  _c("span", [
+                    _vm._v(
+                      "https://www.upwork.com/o/profiles/users/_~012c863ad135fdb85f/k"
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c(
+                "a",
+                {
+                  staticClass: "email",
+                  attrs: {
+                    href:
+                      "mail&#116;o&#58;it&#104;&#105;ppy&#115;&#104;aw%&#54;E&#64;gmai&#37;6C&#46;co&#109;",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", [
+                    _c("i", {
+                      staticClass:
+                        "fa fa-envelope-open-o fa-stack-1x fa-inverse"
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("ithippyshawn@gmail.com")])
+                ]
+              )
             ])
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "list-group-item" }, [
-          _c("p", { staticClass: "item-title" }, [_vm._v("Phone")]),
+          _c("h2", { staticClass: "title" }, [_vm._v("Address")]),
           _vm._v(" "),
-          _c("p", [
-            _c("a", { attrs: { href: "tel:8436023769" } }, [
-              _vm._v("1-843-602-3769")
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "list-group-item" }, [
-          _c("p", { staticClass: "item-title" }, [_vm._v("Address")]),
-          _vm._v(" "),
-          _c("p", [
+          _c("p", { staticClass: "text-muted" }, [
             _vm._v(
-              "As developer nomad, over the last few years my wife and I considered our RV our home and where ever we stopped for the night or week was home for the night.  Currently we are living in Myrtle Beach, SC but once we can purchase another RV preferablly a AIRSTREAM this time, then we will be nomads again!"
+              "As developer nomad, over the last few years my wife and I considered our RV our home and where ever we stopped for the night or week was home for the night.  Currently we are living in Myrtle Beach, SC but once we can purchase another RV preferably a AIRSTREAM this time, then we will be nomads again!"
             )
           ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "list-group-item" }, [
-          _c("p", { staticClass: "item-title" }, [_vm._v("The Team")]),
+          _c("h3", { staticClass: "title" }, [_vm._v("The Team"), _c("br")]),
           _vm._v(" "),
-          _c("p", [
+          _c("p", { staticClass: "text-muted" }, [
             _vm._v(
-              "My team consists of my main supervisor, Mittens she's a 4 year old Hound Mix, who likes to stare over my shoulder to make sure I'm doing things how she would do them.  Next up is my wife Mellissa Crigger who is mostly my proof reader. proof I can read (joke) and she helps with invoicing and customer service."
+              "My team consists of my main supervisor, Mittens she's a 4 year old Hound Mix, who likes to stare over my shoulder to make sure I'm doing things how she would do them.  Next up is my wife Mellissa Crigger who is mostly my proofreader. Proof I can read (joke) and she helps with invoicing and customer service."
             )
           ])
         ])
