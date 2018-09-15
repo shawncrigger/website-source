@@ -3,13 +3,13 @@
 		<h1 class="title">{{website.title}}</h1>
 		<div class="row no-gutters portfolio">
 			<div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-				<h2 class="title">Job Descripition</h2>
+				<h2 class="">Job Descripition</h2>
 				<p class="text-muted">
 				{{website.full_description}}
 				</p>
 			</div>
-			<div class="col-md-6 col-lg-6 col-xl-4 col-xxl-6" v-for="item in thumbs">
-				<div class="portfolio__item" :style="{{'background-image' : 'url('+item+')'}}">
+			<div class="col-md-6 col-lg-6 col-xl-4 col-xxl-6" v-for="item in images">
+				<div class="portfolio__item" :style="{{'background-image' : 'url('+item.thumb+')'}}">
 				</div>
 			</div>
 		</div>
