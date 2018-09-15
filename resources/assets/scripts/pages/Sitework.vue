@@ -8,8 +8,8 @@
 				{{website.full_description}}
 				</p>
 			</div>
-			<div class="col-md-6 col-lg-6 col-xl-4 col-xxl-6" v-for="item in images">
-				<div class="portfolio__item" :style="{{'background-image' : 'url('+item.thumb+')'}}">
+			<div class="col-md-6 col-lg-6 col-xl-4 col-xxl-6" v-for="item in website.images.thumbs">
+				<div class="portfolio__item" :style="{{'background-image' : 'url('+item+')'}}">
 				</div>
 			</div>
 		</div>
