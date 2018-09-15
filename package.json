@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "typed.js": "^2.0.1",
-    "vue-carousel": "^0.13.1"
+    "vue-carousel": "^0.13.1",
+    "vue-gallery": "^1.4.0"
   }
 }
