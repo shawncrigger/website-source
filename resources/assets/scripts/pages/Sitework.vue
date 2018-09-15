@@ -9,7 +9,7 @@
 				</p>
 			</div>
 			<div class="col-md-6 col-lg-6 col-xl-4 col-xxl-6" v-for="item in thumbs">
-				<div class="portfolio__item" :style="{'background-image' : 'url('+item.image+')'}">
+				<div class="portfolio__item" :style="{'background-image' : 'url('+item+')'}">
 				</div>
 			</div>
 		</div>
@@ -25,12 +25,12 @@ export default {
 	      };
 	    },
 	    created: function () {
+	    	var json  = {};
 	    	var _this = this;
-	    	var slug = this.$route.params.slug;
+	    	var slug  = this.$route.params.slug;
 	        $.getJSON('/api/portfolio/' + slug, function (json) {
 	            _this.website = json;
 	        });
-	        console.log(json);
 	    },
 	    computed: {
 	    	thumbs(){
