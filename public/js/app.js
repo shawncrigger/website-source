@@ -2312,6 +2312,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -41742,6 +41745,7 @@ var render = function() {
         { staticClass: "portfolio-gallery" },
         [
           _c("gallery", {
+            staticStyle: { color: "white" },
             attrs: { images: _vm.fullsize, index: _vm.index },
             on: {
               close: function($event) {
@@ -41793,6 +41797,12 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("h1", { staticClass: "title" }, [_vm._v("Portfolio")]),
+    _vm._v(" "),
+    _c("p", { staticClass: "text-muted" }, [
+      _vm._v(
+        "\n\tThese are some of the websites , I have built over the years that I am particularly proud of.   If I included every website I touched over the last decade on this page it would scroll for miles, so these are  just my favorites so to speak.\n\t"
+      )
+    ]),
     _vm._v(" "),
     _c(
       "div",

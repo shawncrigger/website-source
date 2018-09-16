@@ -26,10 +26,12 @@ class PortfolioController extends Controller
     	$pid    = $site->id;
     	$thumbs = DB::table('portfolio_images')->where('pid', $pid)
     	                                       ->where('thumb', 0)
-    	                                       ->pluck('image');
+                                               ->orderBy('order', 'asc')
+    	                                       ->pluck('image, title, description');
     	$full   = DB::table('portfolio_images')->where('pid', $pid)
     	                                       ->where('thumb', 1)
-    	                                       ->pluck('image');
+                                               ->orderBy('order', 'asc')
+    	                                       ->pluck('image as href, title, description');
     	$site->images = array(
     		'thumbs' => $thumbs,
     		'full'   => $full,

@@ -9,7 +9,7 @@
 				</p>
 			</div>
 			<div class="portfolio-gallery">
-			   <gallery :images="fullsize" :index="index" @close="index = null"></gallery>
+			   <gallery :images="fullsize" :index="index" @close="index = null" style="color: white;"></gallery>
 			   <div
 			     class="image"
 			     v-for="(image, imageIndex) in fullsize"
