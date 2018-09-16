@@ -15702,3 +15702,7 @@ ul.social-icons a.github span:first-child {
   opacity: 1 !important;
 }
 
+iframe#myplayer {
+  width: 100%;
+}
+

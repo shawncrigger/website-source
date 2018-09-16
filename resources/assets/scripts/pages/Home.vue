@@ -20,11 +20,6 @@
 			</p>
 		</section>
 		<section>
-			<div class="js-video vimeo">
-				<iframe id="myplayer" src="//player.vimeo.com/video/289607133?player_id=myplayer&api=1" width="640" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-		</section>
-		<section>
 			<h2 class="title">Tech I use</h2>
 			<p class="text-muted"><em>I'm always excited to learn some new technology!</em></p>
 			<div class="brands row">

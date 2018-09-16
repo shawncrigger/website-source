@@ -51,6 +51,10 @@
 						<h3 class="title">The Team<br></h3>
 						<p class="text-muted">My team consists of my main supervisor, Mittens she's a 4 year old Hound Mix, who likes to stare over my shoulder to make sure I'm doing things how she would do them.  Next up is my wife Mellissa Crigger who is mostly my proofreader. Proof I can read (joke) and she helps with invoicing and customer service.</p>
 					</div>
+					<div class="list-group-item">
+						<h3 class="title">Mittens<br></h3>
+						<iframe id="myplayer" src="//player.vimeo.com/video/289607133?player_id=myplayer&api=1" width="640" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>

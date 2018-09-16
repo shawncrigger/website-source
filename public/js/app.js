@@ -2165,6 +2165,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -2183,11 +2187,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
 //
 //
 //
@@ -42143,6 +42142,24 @@ var staticRenderFns = [
               "My team consists of my main supervisor, Mittens she's a 4 year old Hound Mix, who likes to stare over my shoulder to make sure I'm doing things how she would do them.  Next up is my wife Mellissa Crigger who is mostly my proofreader. Proof I can read (joke) and she helps with invoicing and customer service."
             )
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "list-group-item" }, [
+          _c("h3", { staticClass: "title" }, [_vm._v("Mittens"), _c("br")]),
+          _vm._v(" "),
+          _c("iframe", {
+            attrs: {
+              id: "myplayer",
+              src:
+                "//player.vimeo.com/video/289607133?player_id=myplayer&api=1",
+              width: "640",
+              height: "100%",
+              frameborder: "0",
+              webkitallowfullscreen: "",
+              mozallowfullscreen: "",
+              allowfullscreen: ""
+            }
+          })
         ])
       ])
     ])
@@ -42207,24 +42224,6 @@ var staticRenderFns = [
           _vm._v(
             "\n\t\t\tWith countless hours and an unyielding determination and discipline, what began as a fun hobby to learn in my free time has grown into a successful career as a full-time Web Developer.\n\t\t"
           )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", [
-        _c("div", { staticClass: "js-video vimeo" }, [
-          _c("iframe", {
-            attrs: {
-              id: "myplayer",
-              src:
-                "//player.vimeo.com/video/289607133?player_id=myplayer&api=1",
-              width: "640",
-              height: "100%",
-              frameborder: "0",
-              webkitallowfullscreen: "",
-              mozallowfullscreen: "",
-              allowfullscreen: ""
-            }
-          })
         ])
       ]),
       _vm._v(" "),
