@@ -2273,6 +2273,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
@@ -42170,23 +42175,31 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", { staticClass: "text-muted" }, [
           _vm._v(
-            "\n\t\t\tHello, my name is Shawn Crigger and as a self taught geek who grew up surronded by computers they became a important part of my life.  Learning to program on my first Vic20 and getting my first 300 BAUD modem for my C64 were life changing events in my life.  After exploring the few BBS system's I could find back in those days and of course searching for WAREZ ( what 8 or 9 year old didn't ), eventually I moved to a Apple ][e and a Tandy and finally my first IBM 386.  After the first 486-DX came out I managed to get one for christmas and I saved all summer long doing yard work or whatever I could do to get one of the very first US Robotics 14.4k modems,  I managed to get a steal at around $160 bucks because my best friend's dad worked at a computer that was in the process of upgrading all of there modems, so he added my modem to the purchase so I got mine for a hundred or so cheaper which was ATON of money for someone my age at the time.\n\t\t"
+            "\n\t\t\tHello, my name is Shawn Crigger, a self taught geek who grew up immersed in computers. Learning to program on my first Vic20 and getting my first 300 BAUD modem for my C64 were life changing events.\n\t\t"
           )
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "text-muted" }, [
           _vm._v(
-            "\n\t\t\tNow during the time I was using IBM's, I had taught myself Turbo Pascal and Turbo C++ , which Turbo Pascal being my favorite language every learned to this day.  So anyway, once I got my 14.4k modem, I decided to open a BBS myself running originally WWIV, then I moved to I think Vision ( I can't remember how to spell it ), obviously it didn't last long since I was paying for the phone line on a high school students budget.  Anyway that is all ancient history of how I got started, after that I opened a vBulletin forum around 06 or 07 and then started building vBulletin mods and the now over the last decade I have made my living as a full time web developer.\n\t\t"
+            "\n\t\t\tAfter exploring the few BBS systems I could find back in those days, and of course searching for WAREZ (what 8 or 9 year old didn't?). Eventually I moved to an Apple ][e and a Tandy, and finally, my first IBM 386.\n\t\t"
           )
-        ]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "title" }, [
-          _vm._v("About Me, Hobbies, Interests, Not CPU related")
         ]),
         _vm._v(" "),
         _c("p", { staticClass: "text-muted" }, [
           _vm._v(
-            "\n\t\t\tSo that's my history of computers, but who am I really?  I live in Myrtle Beach, SC across the street from the beach.  I have a Hound/Pit mix who I have spoiled rotten and I love her even more for it, and I have been married since July 1st, 2017.  I enjoy frisbee golf, hiking, people watching, and random tech stuff.\n\t\t"
+            "\n\t\t\tWhen the first 486-DX came out I got one as a Christmas gift, then I worked any odd job a boy that young could work in order to buy myself one of the very first US Robotics 14.4k modems. Years before the personal computer became attainable for most people, computers had already become an essential part of my life.\n\t\t "
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-muted" }, [
+          _vm._v(
+            "\n\t\t\tDuring the time I was using IBM products, I taught myself Turbo Pascal and Turbo C++. Out of all of the languages I’ve learned, Turbo Pascal is still my favorite. Once I got a 14.4k modem I opened a BBS, originally running WWIV, then Vision. In 2006 I opened a vBulletin forum, from there I started building vBulletin mods.\n\t\t"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-muted" }, [
+          _vm._v(
+            "\n\t\t\tWith countless hours and an unyielding determination and discipline, what began as a fun hobby to learn in my free time has grown into a successful career as a full-time Web Developer.\n\t\t"
           )
         ])
       ]),
