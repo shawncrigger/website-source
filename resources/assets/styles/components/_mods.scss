@@ -179,3 +179,11 @@ ul.social-icons a.github span:first-child {
 }
 
 .item-muted, .text-muted { font-weight: 300; }
+
+.blueimp-gallery > .description {
+    top: 50px !important;
+    width: 35% !important;
+    opacity: .8;
+}
+
+.blueimp-gallery>.title { opacity: 1 !important; }

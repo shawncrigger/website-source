@@ -41759,7 +41759,7 @@ var render = function() {
               key: imageIndex,
               staticClass: "image",
               style: {
-                backgroundImage: "url(" + image + ")",
+                backgroundImage: "url(" + image.href + ")",
                 width: "300px",
                 height: "200px"
               },

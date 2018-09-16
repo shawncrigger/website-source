@@ -15,7 +15,7 @@
 			     v-for="(image, imageIndex) in fullsize"
 			     :key="imageIndex"
 			     @click="index = imageIndex"
-			     :style="{ backgroundImage: 'url(' + image + ')', width: '300px', height: '200px' }"
+			     :style="{ backgroundImage: 'url(' + image.href + ')', width: '300px', height: '200px' }"
 			   ></div>
 			 </div>
 		</div>
