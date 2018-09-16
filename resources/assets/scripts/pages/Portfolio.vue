@@ -9,7 +9,7 @@
 				<div class="portfolio__item" :style="{'background-image' : 'url('+item.thumbnail+')'}">
 					<div class="item__content">
 						<p class="item__title">
-							<a :href="item.slug" target="_blank">
+							<a :href="item.slug">
 								<i class="fa fa-link"></i>
 								<span>{{item.title}}</span>
 							</a>
