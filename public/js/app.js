@@ -41820,7 +41820,7 @@ var render = function() {
               [
                 _c("div", { staticClass: "item__content" }, [
                   _c("p", { staticClass: "item__title" }, [
-                    _c("a", { attrs: { href: item.slug, target: "_blank" } }, [
+                    _c("a", { attrs: { href: item.slug } }, [
                       _c("i", { staticClass: "fa fa-link" }),
                       _vm._v(" "),
                       _c("span", [_vm._v(_vm._s(item.title))])
@@ -41979,7 +41979,7 @@ var render = function() {
           _vm._v(" "),
           _c("map-canvas", {
             attrs: {
-              position: "56.484392,21.017387",
+              position: "33.674700,-78.901180",
               zoom: "4",
               icon: "/images/mapmarker.png"
             }
