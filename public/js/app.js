@@ -42165,13 +42165,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row profile" }, [
       _c("section", [
-        _c("h1", { staticClass: "title" }, [
-          _vm._v("About Shawn Crigger the Web Ninja!")
-        ]),
+        _c("h1", { staticClass: "title" }, [_vm._v("WEB NINJA")]),
         _vm._v(" "),
-        _c("h2", { staticClass: "title" }, [
-          _vm._v("History section - needs thinning")
-        ]),
+        _c("h2", { staticClass: "title" }, [_vm._v("About Me:")]),
         _vm._v(" "),
         _c("p", { staticClass: "text-muted" }, [
           _vm._v(
