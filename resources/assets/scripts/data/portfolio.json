@@ -32,6 +32,14 @@
 		"thumbnail" : "https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/tnt-thumb.jpg"
 	},
 	{
+		"title" : "Chronicle Ferguson",
+		"url" : "http://chronicleferguson.com",
+		"date" : "2016-05",
+		"slug" : "/portfolio/chronicle-ferguson/",
+		"task" : "Front-end and Back-end development",
+		"thumbnail" : "https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/ferguson-thumb.jpg"
+	},
+	{
 		"title" : "Code Examples",
 		"url" : "https://gist.github.com/shawncrigger/",
 		"date" : "2018-03",

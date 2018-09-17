@@ -2276,7 +2276,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
@@ -42217,9 +42216,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row profile" }, [
       _c("section", [
-        _c("h1", { staticClass: "title" }, [_vm._v("WEB NINJA")]),
-        _vm._v(" "),
-        _c("h2", { staticClass: "title" }, [_vm._v("About Me:")]),
+        _c("h1", { staticClass: "title" }, [_vm._v("About Me:")]),
         _vm._v(" "),
         _c("p", { staticClass: "text-muted" }, [
           _vm._v(
@@ -56521,7 +56518,7 @@ module.exports = Component.exports
 /***/ "./resources/assets/scripts/data/portfolio.json":
 /***/ (function(module, exports) {
 
-module.exports = [{"title":"Explore North Myrtle Beach","url":"https://www.explorenorthmyrtlebeach.com/","date":"2015-01","task":"Server Build and Maintaince, Migrate from old server to new server, Front end, Back end and API development","slug":"/portfolio/explore-north-myrtle-beach/","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536795472/screenshots/explore-thumb.jpg"},{"title":"Tiger Census","url":"http://tigercensus.com/","date":"2011-01","slug":"/portfolio/tiger-census/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787652/screenshots/tigercenus-thumb.jpg"},{"title":"Alabama Theatre","url":"https://www.alabama-theatre.com/","date":"2016-04","slug":"/portfolio/alabama-theatre/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/alabama-theatre-calendar-thumb.jpg"},{"title":"National Trader","url":"https://nationaltrader.biz/","date":"2015-05","slug":"/portfolio/national-trader/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/tnt-thumb.jpg"},{"title":"Code Examples","url":"https://gist.github.com/shawncrigger/","date":"2018-03","slug":"/portfolio/explore-north-myrtle-beach/","task":"Code Examples","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857458/screenshots/code-examples.jpg"}]
+module.exports = [{"title":"Explore North Myrtle Beach","url":"https://www.explorenorthmyrtlebeach.com/","date":"2015-01","task":"Server Build and Maintaince, Migrate from old server to new server, Front end, Back end and API development","slug":"/portfolio/explore-north-myrtle-beach/","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536795472/screenshots/explore-thumb.jpg"},{"title":"Tiger Census","url":"http://tigercensus.com/","date":"2011-01","slug":"/portfolio/tiger-census/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787652/screenshots/tigercenus-thumb.jpg"},{"title":"Alabama Theatre","url":"https://www.alabama-theatre.com/","date":"2016-04","slug":"/portfolio/alabama-theatre/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/alabama-theatre-calendar-thumb.jpg"},{"title":"National Trader","url":"https://nationaltrader.biz/","date":"2015-05","slug":"/portfolio/national-trader/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/tnt-thumb.jpg"},{"title":"Chronicle Ferguson","url":"http://chronicleferguson.com","date":"2016-05","slug":"/portfolio/chronicle-ferguson/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/ferguson-thumb.jpg"},{"title":"Code Examples","url":"https://gist.github.com/shawncrigger/","date":"2018-03","slug":"/portfolio/explore-north-myrtle-beach/","task":"Code Examples","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857458/screenshots/code-examples.jpg"}]
 
 /***/ }),
 
