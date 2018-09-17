@@ -1,8 +1,7 @@
 <template>
 	<div class="row profile">
 		<section>
-			<h1 class="title">WEB NINJA</h1>
-			<h2 class="title">About Me:</h2>
+			<h1 class="title">About Me:</h1>
 			<p class="text-muted">
 				Hello, my name is Shawn Crigger, a self taught geek who grew up immersed in computers. Learning to program on my first Vic20 and getting my first 300 BAUD modem for my C64 were life changing events.
 			</p>
