@@ -2428,6 +2428,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -41481,46 +41486,49 @@ var staticRenderFns = [
               _vm._v(
                 "\n\t\t\t\t\tSouthern Tide Media is a great company, and I am proud to be a employee, unfortuntely we are still a small company and I have plenty of hours I would like to fill with more work.\n\t\t\t\t\t"
               ),
-              _c("br"),
+              _c("br")
+            ]),
+            _c("h3", { staticClass: "text-muted" }, [_vm._v("Daily Tasks")]),
+            _vm._v(" "),
+            _c("ul", [
+              _c("li", [
+                _vm._v("Maintain Expression Engine and Wordpress websites")
+              ]),
               _vm._v(" "),
-              _c("ul", [
-                _c("li", [
-                  _vm._v("Maintain Expression Engine and Wordpress websites")
-                ]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Setting up a new servers")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("building custom web sites")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("migrating websites to new hosts")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Server and Web maintenance")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("building custom web sites from scratch")]),
-                _vm._v(" "),
-                _c("li", [_vm._v("building API connectors")]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Use Raven Tools to build SEO reports, make changes as per SEO reports"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Use Litmus to build HTML emails that look correct in all clients"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Working with Sharpspring CRM to track the users experience on the websites and try to add automated triggers to help market the websites better."
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Responsive HTML Email Development")])
-              ])
-            ])
+              _c("li", [_vm._v("Setting up a new servers")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("building custom web sites")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("migrating websites to new hosts")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Server and Web maintenance")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("building custom web sites from scratch")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("building API connectors")]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v(
+                  "Use Raven Tools to build SEO reports, make changes as per SEO reports"
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v(
+                  "Use Litmus to build HTML emails that look correct in all clients"
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v(
+                  "Working with Sharpspring CRM to track the users experience on the websites and try to add automated triggers to help market the websites better."
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Responsive HTML Email Development")])
+            ]),
+            _vm._v(" "),
+            _c("p")
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "list-group-item" }, [
@@ -41548,31 +41556,35 @@ var staticRenderFns = [
                 "\n\t\t\t\t\tWhile working at Eagle Web Designs the second time, I primarily helped finish 2 of there larger websites and build a API consumer."
               ),
               _c("br"),
+              _c("br"),
               _vm._v(
                 "\n\t\t\t\t\tI was able to launch TheNationalTrader.com which had already missed 1 or 2 previous launch dates and the customer was extremely happy."
               ),
-              _c("br"),
+              _c("br")
+            ]),
+            _c("h3", { staticClass: "text-muted" }, [_vm._v("Daily Tasks")]),
+            _vm._v(" "),
+            _c("ul", [
+              _c("li", [
+                _vm._v(
+                  "Launched 1 large website built on custom PHP CMS system"
+                )
+              ]),
               _vm._v(" "),
-              _c("ul", [
-                _c("li", [
-                  _vm._v(
-                    "Launched 1 large website built on custom PHP CMS system"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Created and Launched API consumer with user login system"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Fixed mulitple PayPal IPN Gateway errors due to update on PayPal"
-                  )
-                ])
+              _c("li", [
+                _vm._v(
+                  "Created and Launched API consumer with user login system"
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v(
+                  "Fixed mulitple PayPal IPN Gateway errors due to update on PayPal"
+                )
               ])
-            ])
+            ]),
+            _vm._v(" "),
+            _c("p")
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "list-group-item" }, [
@@ -41602,43 +41614,47 @@ var staticRenderFns = [
                 "\n\t\t\t\t\tI worked as a self employeed freelancer off and on since 2008, and I enjoy the stability of working with a team more then purely by myself, even thou I am a invert I still like to work with others.  I mostly worked with vBulletin, Wordpress, CodeIgniter, CI-Bonfire and/or custom PHP apps."
               ),
               _c("br"),
+              _c("br"),
               _vm._v(
                 "\n\t\t\t\t\tAnd of course a lot of API's which is something I have really specialized in even since the first time I used one I feel in love with it."
               ),
-              _c("br"),
+              _c("br")
+            ]),
+            _c("h3", { staticClass: "text-muted" }, [_vm._v("Daily Tasks")]),
+            _vm._v(" "),
+            _c("ul", [
+              _c("li", [_vm._v("Build and Maintained LAMP servers")]),
               _vm._v(" "),
-              _c("ul", [
-                _c("li", [_vm._v("Build and Maintained LAMP servers")]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Built Themes, and Plugins for Wordpress, and Expression Engine"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v("Worked with MySQL DB and MongoDB on same project.")
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Built many custom one off websites using CodeIgniter and Laravel."
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Converted a ASP application to Wordpress for American Hiking."
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v(
-                    "Estimating how much time a project will take, and any technical challenges of the project"
-                  )
-                ])
+              _c("li", [
+                _vm._v(
+                  "Built Themes, and Plugins for Wordpress, and Expression Engine"
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("Worked with MySQL DB and MongoDB on same project.")
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v(
+                  "Built many custom one off websites using CodeIgniter and Laravel."
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v(
+                  "Converted a ASP application to Wordpress for American Hiking."
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v(
+                  "Estimating how much time a project will take, and any technical challenges of the project"
+                )
               ])
-            ])
+            ]),
+            _vm._v(" "),
+            _c("p")
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "list-group-item" }, [
@@ -41665,18 +41681,27 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "item-muted clear" }, [
               _vm._v(
-                'During my first time at Eagle Web Designs, I worked for them in office for quite a few years,  During that time I went from a cocky mid level coder, to a much older wiser coder.  While working here, I built the custom CMS system they have used on at-least 26 different web-sites with minor modifications or changing "modules" out,  since I built the first 2 or 3 versions, I\'m sure they have updated it somewhat but it is a decent CMS system.\n\t\t\t\t'
+                "During my first time at Eagle Web Designs, I worked for them in office for quite a few years,  During that time I went from a cocky mid level coder, to a much older wiser coder. "
               ),
-              _c("ul", [
-                _c("li", [_vm._v("Built Custom CMS System")]),
-                _vm._v(" "),
-                _c("li", [
-                  _vm._v("Migrated Websites to the company hosting plans.")
-                ]),
-                _vm._v(" "),
-                _c("li", [_vm._v("Maintained and built many websites.")])
-              ])
-            ])
+              _c("br"),
+              _c("br"),
+              _vm._v(
+                '\n\t\t\t\tWhile working here, I built the custom CMS system they have used on at-least 26 different web-sites with minor modifications or changing "modules" out,  since I built the first 2 or 3 versions, I\'m sure they have updated it somewhat but it is a decent CMS system.\n\t\t\t\t'
+              )
+            ]),
+            _c("h3", { staticClass: "text-muted" }, [_vm._v("Daily Tasks")]),
+            _vm._v(" "),
+            _c("ul", [
+              _c("li", [_vm._v("Built Custom CMS System")]),
+              _vm._v(" "),
+              _c("li", [
+                _vm._v("Migrated Websites to the company hosting plans.")
+              ]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Maintained and built many websites.")])
+            ]),
+            _vm._v(" "),
+            _c("p")
           ])
         ])
       ]),

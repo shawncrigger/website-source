@@ -10,6 +10,7 @@
 					<p class="text-muted clear">
 						Southern Tide Media is a great company, and I am proud to be a employee, unfortuntely we are still a small company and I have plenty of hours I would like to fill with more work.
 						<br>
+						<h3 class="text-muted">Daily Tasks</h3>
 						<ul>
 							<li>Maintain Expression Engine and Wordpress websites</li>
 						<li>Setting up a new servers</li>
@@ -32,8 +33,9 @@
 					</p>
 					<p class="item-title">Eagle Web Designs, Inc<br><em>Full Stack developer</em></p>
 					<p class="item-muted clear">
-						While working at Eagle Web Designs the second time, I primarily helped finish 2 of there larger websites and build a API consumer.<br>
+						While working at Eagle Web Designs the second time, I primarily helped finish 2 of there larger websites and build a API consumer.<br><br>
 						I was able to launch TheNationalTrader.com which had already missed 1 or 2 previous launch dates and the customer was extremely happy.<br>
+						<h3 class="text-muted">Daily Tasks</h3>
 						<ul>
 							<li>Launched 1 large website built on custom PHP CMS system</li>
 							<li>Created and Launched API consumer with user login system</li>
@@ -48,8 +50,9 @@
 					</p>
 					<p class="item-title">Self-Employeed Freelancer<br><em>Full Stack developer</em></p>
 					<p class="item-muted clear">
-						I worked as a self employeed freelancer off and on since 2008, and I enjoy the stability of working with a team more then purely by myself, even thou I am a invert I still like to work with others.  I mostly worked with vBulletin, Wordpress, CodeIgniter, CI-Bonfire and/or custom PHP apps.<br>
+						I worked as a self employeed freelancer off and on since 2008, and I enjoy the stability of working with a team more then purely by myself, even thou I am a invert I still like to work with others.  I mostly worked with vBulletin, Wordpress, CodeIgniter, CI-Bonfire and/or custom PHP apps.<br><br>
 						And of course a lot of API's which is something I have really specialized in even since the first time I used one I feel in love with it.<br>
+						<h3 class="text-muted">Daily Tasks</h3>
 					<ul>
 						<li>Build and Maintained LAMP servers</li>
 						<li>Built Themes, and Plugins for Wordpress, and Expression Engine</li>
@@ -66,7 +69,9 @@
 						<img class="company-logo" src="https://res.cloudinary.com/crigger-assets/image/upload/v1536789563/logos/ewd-logo.png" alt="">
 					</p>
 					<p class="item-title">Eagle Web Designs, Inc<br><em>Full Stack developer</em></p>
-					<p class="item-muted clear">During my first time at Eagle Web Designs, I worked for them in office for quite a few years,  During that time I went from a cocky mid level coder, to a much older wiser coder.  While working here, I built the custom CMS system they have used on at-least 26 different web-sites with minor modifications or changing "modules" out,  since I built the first 2 or 3 versions, I'm sure they have updated it somewhat but it is a decent CMS system.
+					<p class="item-muted clear">During my first time at Eagle Web Designs, I worked for them in office for quite a few years,  During that time I went from a cocky mid level coder, to a much older wiser coder. <br><br>
+					While working here, I built the custom CMS system they have used on at-least 26 different web-sites with minor modifications or changing "modules" out,  since I built the first 2 or 3 versions, I'm sure they have updated it somewhat but it is a decent CMS system.
+					<h3 class="text-muted">Daily Tasks</h3>
 					<ul>
 						<li>Built Custom CMS System</li>
 						<li>Migrated Websites to the company hosting plans.</li>
