@@ -17,6 +17,7 @@ import Home from './pages/Home.vue'
 import Portfolio from './pages/Portfolio.vue'
 import Sitework from './pages/Sitework.vue'
 import Contact from './pages/Contact.vue'
+import CodeExamples from './pages/CodeExamples.vue'
 import Resume from './pages/Resume.vue'
 import p404 from './pages/404.vue'
 
@@ -25,6 +26,8 @@ const routes = [
     { path: '/portfolio/:slug', component: Sitework},
     { path: '/portfolio', component: Portfolio},
     { path: '/resume', component : Resume},
+    { path: '/code-examples', component : CodeExamples},
+
     // { path: '/blog', component : Blog},
     { path: '/contact', component : Contact, meta : {sidebar:true}},
     { path: '/404', component: p404, meta : {invert : true}},

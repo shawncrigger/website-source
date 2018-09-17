@@ -2095,6 +2095,36 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./resources/assets/scripts/pages/CodeExamples.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./resources/assets/scripts/pages/Contact.vue":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -41811,6 +41841,94 @@ if (false) {
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-3fdd6468\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./resources/assets/scripts/pages/CodeExamples.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row profile" }, [
+      _c("section", [
+        _c("h1", { staticClass: "title" }, [_vm._v("Code Examples:")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-muted" }, [
+          _vm._v(
+            "\n\t\t\tSince I just built this website Sept 10th thru the 17th, I am still in the process of wrangling up some good samples of my coding style.  Below are a few links to some things I built mostly using API's.\n\t\t"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-muted" }, [
+          _c(
+            "a",
+            {
+              attrs: {
+                href:
+                  "https://gist.github.com/shawncrigger/5d56875e3d1b8a86f0842e03b1885273",
+                target: "_blank"
+              }
+            },
+            [_vm._v("How I hooked")]
+          ),
+          _vm._v(
+            " into SquareSpaces horrible form javascript handler and added my own handlers to send the form data to Sharpspring before running there form submit events.\n\t\t"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-muted" }, [
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://wordpress.org/plugins/fraudgrade/",
+                target: "_blank"
+              }
+            },
+            [_vm._v("FraudGrade")]
+          ),
+          _vm._v(
+            " API plugin that allows WP admin users to ban users based on there FraudGrade API results. I built this for a client.\n\t\t "
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-muted" }, [
+          _vm._v("\n\t\t \tEnables SharpSpring "),
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://github.com/shawncrigger/sc-ss-shoppingcart-fix",
+                target: "_blank"
+              }
+            },
+            [_vm._v("Shopping Cart Abandonment")]
+          ),
+          _vm._v(
+            " tracking using Wordpress and WooCommerce.  I am still working on building this plugin, the code currently works and is being used on more then one website but I haven't finished cleaning it up for public release to Wordpress Plugin Repo.\n\t\t"
+          )
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-3fdd6468", module.exports)
+  }
+}
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-4e00287c\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./resources/assets/scripts/pages/Portfolio.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -56309,10 +56427,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_Sitework_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__pages_Sitework_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_Contact_vue__ = __webpack_require__("./resources/assets/scripts/pages/Contact.vue");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_Contact_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__pages_Contact_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_Resume_vue__ = __webpack_require__("./resources/assets/scripts/pages/Resume.vue");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_Resume_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__pages_Resume_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_404_vue__ = __webpack_require__("./resources/assets/scripts/pages/404.vue");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_404_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__pages_404_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_CodeExamples_vue__ = __webpack_require__("./resources/assets/scripts/pages/CodeExamples.vue");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_CodeExamples_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__pages_CodeExamples_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_Resume_vue__ = __webpack_require__("./resources/assets/scripts/pages/Resume.vue");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_Resume_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__pages_Resume_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_404_vue__ = __webpack_require__("./resources/assets/scripts/pages/404.vue");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_404_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__pages_404_vue__);
 __webpack_require__("./resources/assets/scripts/bootstrap.js");
 
 
@@ -56335,9 +56455,11 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vee_
 
 
 
-var routes = [{ path: '/', component: __WEBPACK_IMPORTED_MODULE_3__pages_Home_vue___default.a, meta: { sidebar: true } }, { path: '/portfolio/:slug', component: __WEBPACK_IMPORTED_MODULE_5__pages_Sitework_vue___default.a }, { path: '/portfolio', component: __WEBPACK_IMPORTED_MODULE_4__pages_Portfolio_vue___default.a }, { path: '/resume', component: __WEBPACK_IMPORTED_MODULE_7__pages_Resume_vue___default.a },
+
+var routes = [{ path: '/', component: __WEBPACK_IMPORTED_MODULE_3__pages_Home_vue___default.a, meta: { sidebar: true } }, { path: '/portfolio/:slug', component: __WEBPACK_IMPORTED_MODULE_5__pages_Sitework_vue___default.a }, { path: '/portfolio', component: __WEBPACK_IMPORTED_MODULE_4__pages_Portfolio_vue___default.a }, { path: '/resume', component: __WEBPACK_IMPORTED_MODULE_8__pages_Resume_vue___default.a }, { path: '/code-examples', component: __WEBPACK_IMPORTED_MODULE_7__pages_CodeExamples_vue___default.a },
+
 // { path: '/blog', component : Blog},
-{ path: '/contact', component: __WEBPACK_IMPORTED_MODULE_6__pages_Contact_vue___default.a, meta: { sidebar: true } }, { path: '/404', component: __WEBPACK_IMPORTED_MODULE_8__pages_404_vue___default.a, meta: { invert: true } }, { path: '*', redirect: '/404' }];
+{ path: '/contact', component: __WEBPACK_IMPORTED_MODULE_6__pages_Contact_vue___default.a, meta: { sidebar: true } }, { path: '/404', component: __WEBPACK_IMPORTED_MODULE_9__pages_404_vue___default.a, meta: { invert: true } }, { path: '*', redirect: '/404' }];
 
 var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
     linkExactActiveClass: 'active',
@@ -56518,7 +56640,7 @@ module.exports = Component.exports
 /***/ "./resources/assets/scripts/data/portfolio.json":
 /***/ (function(module, exports) {
 
-module.exports = [{"title":"Explore North Myrtle Beach","url":"https://www.explorenorthmyrtlebeach.com/","date":"2015-01","task":"Server Build and Maintaince, Migrate from old server to new server, Front end, Back end and API development","slug":"/portfolio/explore-north-myrtle-beach/","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536795472/screenshots/explore-thumb.jpg"},{"title":"Tiger Census","url":"http://tigercensus.com/","date":"2011-01","slug":"/portfolio/tiger-census/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787652/screenshots/tigercenus-thumb.jpg"},{"title":"Alabama Theatre","url":"https://www.alabama-theatre.com/","date":"2016-04","slug":"/portfolio/alabama-theatre/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/alabama-theatre-calendar-thumb.jpg"},{"title":"National Trader","url":"https://nationaltrader.biz/","date":"2015-05","slug":"/portfolio/national-trader/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/tnt-thumb.jpg"},{"title":"Chronicle Ferguson","url":"http://chronicleferguson.com","date":"2016-05","slug":"/portfolio/chronicle-ferguson/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/ferguson-thumb.jpg"},{"title":"Code Examples","url":"https://gist.github.com/shawncrigger/","date":"2018-03","slug":"/portfolio/explore-north-myrtle-beach/","task":"Code Examples","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857458/screenshots/code-examples.jpg"}]
+module.exports = [{"title":"Explore North Myrtle Beach","url":"https://www.explorenorthmyrtlebeach.com/","date":"2015-01","task":"Server Build and Maintaince, Migrate from old server to new server, Front end, Back end and API development","slug":"/portfolio/explore-north-myrtle-beach/","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536795472/screenshots/explore-thumb.jpg"},{"title":"Tiger Census","url":"http://tigercensus.com/","date":"2011-01","slug":"/portfolio/tiger-census/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787652/screenshots/tigercenus-thumb.jpg"},{"title":"Alabama Theatre","url":"https://www.alabama-theatre.com/","date":"2016-04","slug":"/portfolio/alabama-theatre/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/alabama-theatre-calendar-thumb.jpg"},{"title":"National Trader","url":"https://nationaltrader.biz/","date":"2015-05","slug":"/portfolio/national-trader/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/tnt-thumb.jpg"},{"title":"Chronicle Ferguson","url":"http://chronicleferguson.com","date":"2016-05","slug":"/portfolio/chronicle-ferguson/","task":"Front-end and Back-end development","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857454/screenshots/ferguson-thumb.jpg"},{"title":"Code Examples","url":"https://gist.github.com/shawncrigger/","date":"2018-03","slug":"/code-examples/","task":"Code Examples","thumbnail":"https://res.cloudinary.com/crigger-assets/image/upload/v1536857458/screenshots/code-examples.jpg"}]
 
 /***/ }),
 
@@ -56805,6 +56927,55 @@ if (false) {(function () {
     hotAPI.createRecord("data-v-72e7b152", Component.options)
   } else {
     hotAPI.reload("data-v-72e7b152", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ "./resources/assets/scripts/pages/CodeExamples.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
+/* script */
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./resources/assets/scripts/pages/CodeExamples.vue")
+/* template */
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-3fdd6468\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./resources/assets/scripts/pages/CodeExamples.vue")
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/scripts/pages/CodeExamples.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-3fdd6468", Component.options)
+  } else {
+    hotAPI.reload("data-v-3fdd6468", Component.options)
 ' + '  }
   module.hot.dispose(function (data) {
     disposed = true
