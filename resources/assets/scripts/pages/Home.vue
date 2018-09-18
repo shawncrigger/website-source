@@ -85,11 +85,41 @@
 				</div>
 			</div>
 		</section>
+		<!-- NOT READY FOR PRIME TIME -->
+		<section style="display:none;">
+			<h3>LinkedIn Recommendations</h3>
+			<div class="row">
+			    <div class="col-md-12">
+			        <div class="main-timeline">
+			            <a href="#" class="timeline" v-for="item in items">
+			                <div class="timeline-icon">
+			                	<img :src="item.image" :alt="item.name">
+			                </div>
+			                <div class="timeline-content">
+			                    <h3 class="title">{{item.name}}</h3>
+			                    <p class="description">
+			                        {{item.comment}}
+			                    </p>
+			                </div>
+			            </a>
+			        </div>
+			    </div>
+			</div>
+		</section>
 	</div>
 </template>
 <script>
-
+import linkedInData from '../data/linked.json';
 export default {
-
+	data(){
+		return {
+			linkedIn : linkedInData
+		}
+	},
+	computed: {
+		items(){
+			return _.orderBy(this.linkedIn, ['date', ], ['desc']);
+		}
+	}
 }
 </script>

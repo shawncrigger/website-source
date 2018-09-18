@@ -14407,7 +14407,6 @@ body {
   left: 0;
   height: 100%;
   background: #4c33fb;
-  width: 185px;
   -webkit-transition: .3s transform;
   transition: .3s transform;
   -webkit-transform: translateX(-100%);
