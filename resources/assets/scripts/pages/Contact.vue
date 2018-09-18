@@ -44,8 +44,8 @@
 			          </ul>
 					</div>
 					<div class="list-group-item">
-						<h2 class="title">Address</h2>
-						<p class="text-muted">As developer nomad, over the last few years my wife and I considered our RV our home and where ever we stopped for the night or week was home for the night.  Currently we are living in Myrtle Beach, SC but once we can purchase another RV preferably a AIRSTREAM this time, then we will be nomads again!</p>
+						<h2 class="title">My Goals in Life</h2>
+						<p class="text-muted">As developer nomad, over the last few years my wife and I considered our RV our home and where ever we stopped for the night or week was home for the night. That was fun for awhile, but now I want to buy some land and give my dog the backyard she deserves. Currently we live in Myrtle Beach, SC but have been thinking of relocating.</p>
 					</div>
 					<div class="list-group-item">
 						<h3 class="title">The Team<br></h3>

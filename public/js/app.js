@@ -2217,6 +2217,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__data_linked_json__ = __webpack_require__("./resources/assets/scripts/data/linked.json");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__data_linked_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__data_linked_json__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2308,7 +2330,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+	data: function data() {
+		return {
+			linkedIn: __WEBPACK_IMPORTED_MODULE_0__data_linked_json___default.a
+		};
+	},
+
+	computed: {
+		items: function items() {
+			return _.orderBy(this.linkedIn, ['date'], ['desc']);
+		}
+	}
+});
 
 /***/ }),
 
@@ -41519,7 +41553,7 @@ var staticRenderFns = [
             ]),
             _c("h3", { staticClass: "text-muted" }, [_vm._v("Daily Tasks")]),
             _vm._v(" "),
-            _c("ul", [
+            _c("ul", { staticClass: "text-muted" }, [
               _c("li", [
                 _vm._v("Maintain Expression Engine and Wordpress websites")
               ]),
@@ -41593,7 +41627,7 @@ var staticRenderFns = [
             ]),
             _c("h3", { staticClass: "text-muted" }, [_vm._v("Daily Tasks")]),
             _vm._v(" "),
-            _c("ul", [
+            _c("ul", { staticClass: "text-muted" }, [
               _c("li", [
                 _vm._v(
                   "Launched 1 large website built on custom PHP CMS system"
@@ -41651,7 +41685,7 @@ var staticRenderFns = [
             ]),
             _c("h3", { staticClass: "text-muted" }, [_vm._v("Daily Tasks")]),
             _vm._v(" "),
-            _c("ul", [
+            _c("ul", { staticClass: "text-muted" }, [
               _c("li", [_vm._v("Build and Maintained LAMP servers")]),
               _vm._v(" "),
               _c("li", [
@@ -41720,7 +41754,7 @@ var staticRenderFns = [
             ]),
             _c("h3", { staticClass: "text-muted" }, [_vm._v("Daily Tasks")]),
             _vm._v(" "),
-            _c("ul", [
+            _c("ul", { staticClass: "text-muted" }, [
               _c("li", [_vm._v("Built Custom CMS System")]),
               _vm._v(" "),
               _c("li", [
@@ -42267,11 +42301,11 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "list-group-item" }, [
-          _c("h2", { staticClass: "title" }, [_vm._v("Address")]),
+          _c("h2", { staticClass: "title" }, [_vm._v("My Goals in Life")]),
           _vm._v(" "),
           _c("p", { staticClass: "text-muted" }, [
             _vm._v(
-              "As developer nomad, over the last few years my wife and I considered our RV our home and where ever we stopped for the night or week was home for the night.  Currently we are living in Myrtle Beach, SC but once we can purchase another RV preferably a AIRSTREAM this time, then we will be nomads again!"
+              "As developer nomad, over the last few years my wife and I considered our RV our home and where ever we stopped for the night or week was home for the night. That was fun for awhile, but now I want to buy some land and give my dog the backyard she deserves. Currently we live in Myrtle Beach, SC but have been thinking of relocating."
             )
           ])
         ]),
@@ -42325,284 +42359,315 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "row profile" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _c("section", [
+      _c("h3", [_vm._v("LinkedIn Recommendations")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "div",
+            { staticClass: "main-timeline" },
+            _vm._l(_vm.items, function(item) {
+              return _c(
+                "a",
+                { staticClass: "timeline", attrs: { href: "#" } },
+                [
+                  _c("div", { staticClass: "timeline-icon" }, [
+                    _c("img", { attrs: { src: item.image, alt: item.name } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "timeline-content" }, [
+                    _c("h3", { staticClass: "title" }, [
+                      _vm._v(_vm._s(item.name))
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "description" }, [
+                      _vm._v(
+                        "\n\t\t                        " +
+                          _vm._s(item.comment) +
+                          "\n\t\t                    "
+                      )
+                    ])
+                  ])
+                ]
+              )
+            })
+          )
+        ])
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row profile" }, [
-      _c("section", [
-        _c("h1", { staticClass: "title" }, [_vm._v("About Me:")]),
-        _vm._v(" "),
-        _c("p", { staticClass: "text-muted" }, [
-          _vm._v(
-            "\n\t\t\tHello, my name is Shawn Crigger, a self taught geek who grew up immersed in computers. Learning to program on my first Vic20 and getting my first 300 BAUD modem for my C64 were life changing events.\n\t\t"
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "text-muted" }, [
-          _vm._v(
-            "\n\t\t\tAfter exploring the few BBS systems I could find back in those days, and of course searching for WAREZ (what 8 or 9 year old didn't?). Eventually I moved to an Apple ][e and a Tandy, and finally, my first IBM 386.\n\t\t"
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "text-muted" }, [
-          _vm._v(
-            "\n\t\t\tWhen the first 486-DX came out I got one as a Christmas gift, then I worked any odd job a boy that young could work in order to buy myself one of the very first US Robotics 14.4k modems. Years before the personal computer became attainable for most people, computers had already become an essential part of my life.\n\t\t "
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "text-muted" }, [
-          _vm._v(
-            "\n\t\t\tDuring the time I was using IBM products, I taught myself Turbo Pascal and Turbo C++. Out of all of the languages I’ve learned, Turbo Pascal is still my favorite. Once I got a 14.4k modem I opened a BBS, originally running WWIV, then Vision. In 2006 I opened a vBulletin forum, from there I started building vBulletin mods.\n\t\t"
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "text-muted" }, [
-          _vm._v(
-            "\n\t\t\tWith countless hours and an unyielding determination and discipline, what began as a fun hobby to learn in my free time has grown into a successful career as a full-time Web Developer.\n\t\t"
-          )
-        ])
+    return _c("section", [
+      _c("h1", { staticClass: "title" }, [_vm._v("About Me:")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-muted" }, [
+        _vm._v(
+          "\n\t\t\tHello, my name is Shawn Crigger, a self taught geek who grew up immersed in computers. Learning to program on my first Vic20 and getting my first 300 BAUD modem for my C64 were life changing events.\n\t\t"
+        )
       ]),
       _vm._v(" "),
-      _c("section", [
-        _c("h2", { staticClass: "title" }, [_vm._v("Tech I use")]),
+      _c("p", { staticClass: "text-muted" }, [
+        _vm._v(
+          "\n\t\t\tAfter exploring the few BBS systems I could find back in those days, and of course searching for WAREZ (what 8 or 9 year old didn't?). Eventually I moved to an Apple ][e and a Tandy, and finally, my first IBM 386.\n\t\t"
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-muted" }, [
+        _vm._v(
+          "\n\t\t\tWhen the first 486-DX came out I got one as a Christmas gift, then I worked any odd job a boy that young could work in order to buy myself one of the very first US Robotics 14.4k modems. Years before the personal computer became attainable for most people, computers had already become an essential part of my life.\n\t\t "
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-muted" }, [
+        _vm._v(
+          "\n\t\t\tDuring the time I was using IBM products, I taught myself Turbo Pascal and Turbo C++. Out of all of the languages I’ve learned, Turbo Pascal is still my favorite. Once I got a 14.4k modem I opened a BBS, originally running WWIV, then Vision. In 2006 I opened a vBulletin forum, from there I started building vBulletin mods.\n\t\t"
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-muted" }, [
+        _vm._v(
+          "\n\t\t\tWith countless hours and an unyielding determination and discipline, what began as a fun hobby to learn in my free time has grown into a successful career as a full-time Web Developer.\n\t\t"
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", [
+      _c("h2", { staticClass: "title" }, [_vm._v("Tech I use")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-muted" }, [
+        _c("em", [_vm._v("I'm always excited to learn some new technology!")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "brands row" }, [
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c("a", { attrs: { href: "https://atom.io/", target: "_blank" } }, [
+              _c("img", {
+                staticClass: "img-fluid",
+                attrs: { src: "/images/logos/atom.svg", alt: "Atom" }
+              })
+            ])
+          ]
+        ),
         _vm._v(" "),
-        _c("p", { staticClass: "text-muted" }, [
-          _c("em", [_vm._v("I'm always excited to learn some new technology!")])
-        ]),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              {
+                attrs: { href: "http://webpack.github.io/", target: "_blank" }
+              },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "/images/logos/webpack.svg", alt: "Webpack" }
+                })
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "brands row" }, [
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                { attrs: { href: "https://atom.io/", target: "_blank" } },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/atom.svg", alt: "Atom" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                {
-                  attrs: { href: "http://webpack.github.io/", target: "_blank" }
-                },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/webpack.svg", alt: "Webpack" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                {
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              {
+                attrs: { href: "http://www.w3.org/TR/html5/", target: "_blank" }
+              },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "/images/logos/html-5.svg", alt: "HTML5" }
+                })
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              { attrs: { href: "http://sass-lang.com/", target: "_blank" } },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "/images/logos/sass.svg", alt: "Sass" }
+                })
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href:
+                    "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+                  target: "_blank"
+                }
+              },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
                   attrs: {
-                    href: "http://www.w3.org/TR/html5/",
-                    target: "_blank"
+                    src: "/images/logos/javascript.svg",
+                    alt: "Javascript"
                   }
-                },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/html-5.svg", alt: "HTML5" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                { attrs: { href: "http://sass-lang.com/", target: "_blank" } },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/sass.svg", alt: "Sass" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                {
+                })
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              { attrs: { href: "http://getbootstrap.com/", target: "_blank" } },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
                   attrs: {
-                    href:
-                      "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-                    target: "_blank"
+                    src: "/images/logos/bootstrap.svg",
+                    alt: "Bootstrap"
                   }
-                },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: {
-                      src: "/images/logos/javascript.svg",
-                      alt: "Javascript"
-                    }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                {
-                  attrs: { href: "http://getbootstrap.com/", target: "_blank" }
-                },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: {
-                      src: "/images/logos/bootstrap.svg",
-                      alt: "Bootstrap"
-                    }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                { attrs: { href: "http://vuejs.org/", target: "_blank" } },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/vue.svg", alt: "VueJS" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                { attrs: { href: "http://php.net/", target: "_blank" } },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/php.svg", alt: "PHP" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                { attrs: { href: "http://dev.mysql.com/", target: "_blank" } },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/mysql.svg", alt: "MySql" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                { attrs: { href: "http://laravel.com/", target: "_blank" } },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/laravel.svg", alt: "Laravel" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                { attrs: { href: "https://git-scm.com/", target: "_blank" } },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: { src: "/images/logos/git.svg", alt: "Git" }
-                  })
-                ]
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
-            [
-              _c(
-                "a",
-                { attrs: { href: "https://wordpress.org/", target: "_blank" } },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid",
-                    attrs: {
-                      src: "/images/logos/wordpress.svg",
-                      alt: "Wordpress"
-                    }
-                  })
-                ]
-              )
-            ]
-          )
-        ])
+                })
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              { attrs: { href: "http://vuejs.org/", target: "_blank" } },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "/images/logos/vue.svg", alt: "VueJS" }
+                })
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c("a", { attrs: { href: "http://php.net/", target: "_blank" } }, [
+              _c("img", {
+                staticClass: "img-fluid",
+                attrs: { src: "/images/logos/php.svg", alt: "PHP" }
+              })
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              { attrs: { href: "http://dev.mysql.com/", target: "_blank" } },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "/images/logos/mysql.svg", alt: "MySql" }
+                })
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              { attrs: { href: "http://laravel.com/", target: "_blank" } },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "/images/logos/laravel.svg", alt: "Laravel" }
+                })
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              { attrs: { href: "https://git-scm.com/", target: "_blank" } },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "/images/logos/git.svg", alt: "Git" }
+                })
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "brand-item col-lg-1 col-md-2 col-sm-2 col-3" },
+          [
+            _c(
+              "a",
+              { attrs: { href: "https://wordpress.org/", target: "_blank" } },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: {
+                    src: "/images/logos/wordpress.svg",
+                    alt: "Wordpress"
+                  }
+                })
+              ]
+            )
+          ]
+        )
       ])
     ])
   }
@@ -56634,6 +56699,13 @@ if (false) {(function () {
 
 module.exports = Component.exports
 
+
+/***/ }),
+
+/***/ "./resources/assets/scripts/data/linked.json":
+/***/ (function(module, exports) {
+
+module.exports = [{"link":"//www.linkedin.com/in/n8crocker/","name":"Nate Crocker","title":"Director of Multimedia at USAF Chaplain Corps and Owner, StudioP40","image":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787651/avatars/nate-profile.jpg","date":"2017-07-31","desc":"July 31, 2017, Shawn was a client of Nate’s","comment":"I have worked with Shawn on several projects ranging from plugin customization to complete website development. Each time Shawn kept in regular contact to provide status updates and made excellent recommendations that saved time and resources to develop. He is a gifted developer and offers more than reasonable pricing."},{"link":"//www.linkedin.com/in/antonelneculai/","name":"Antonel Neculai","title":"Digital Technologist & Story Teller | PR & Social Marketing Strategist | Entrepreneur | Engineer | NASA Social Alumni","image":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787649/avatars/antonel-profile.jpg","date":"2016-07-18","desc":"July 18, 2016, Antonel was a client of Shawn’s","comment":"I have worked with Shawn on various projects related to online marketing and web sites for the North Myrtle Beach Chamber of Commerce. Shawn has proved himself to be a very hard working, true professional. His volume of technical knowledge on things related to online marketing, emails, web sites, social channels, programming, and web design is truly impressive. But besides knowledge, Shawn has also displayed the treats of best professionalism, holding very high standards of conduct, communication, and interaction. It is a pleasure collaborating with Shawn and see him relentlessly working on projects until every detail is taken care of and everything is finalized to the best! I am also enchanted by his writing skills, a treat not very often encountered among the ranks of IT professionals and programmers. I strongly recommend Shawn to anyone in need of an excellent professional to take care of projects related to web sites, web programming, web design, social media channels, and email marketing."},{"link":"//www.linkedin.com/in/brandonrobertevans/","name":"Brandon Evans","title":"Co-Owner at Southern Tide Media","image":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787650/avatars/brandon-profile.jpg","date":"2016-05-31","desc":"May 31, 2016, Brandon managed Shawn directly","comment":"Highly skilled and motivated, Shawn is not only a top notch developer, but he actively looks for improvements that will help clients grown even when that's \"not part of the project description\", which is a rare trait. In a phrase, Shawn is a talented workaholic."},{"link":"//www.linkedin.com/in/joshgcanfield/","name":"Joshua Canfield","title":"Owner of Code Clarity™ (of Simplify Design®)","image":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787650/avatars/josh-profile.jpg","date":"2013-03-02","desc":"March 2, 2013, Joshua worked with Shawn but at different companies","comment":"Shawn is just a wonderful developer. He is ambitious and attentive which is more than important when it comes to programming. He is precise and detail oriented which goes a very long way in this industry."},{"link":"//www.linkedin.com/in/eaglewebdesigns/","name":"Chuck Bunnell","title":"Web Programmer / Designer at Eagle Web Designs, Inc & Coastal Carolina University","image":"https://res.cloudinary.com/crigger-assets/image/upload/v1536787650/avatars/chuck-profile.jpg","date":"2012-11-12","desc":"November 12, 2012, Chuck was a client of Shawn’s","comment":"Shawn is not only an excellent high-end programmer, but he has a knack for figuring out how to do the \"impossible.\" He loves the challenge and always comes up with an answer. If you have a website that needs programming changes, Shawn can do it; even when other can't."}]
 
 /***/ }),
 
