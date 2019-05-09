@@ -55,6 +55,5 @@
 
       gtag('config', 'UA-125782240-1');
     </script>
-    <script src="https://sc-analytic.herokuapp.com/tracker.js"></script>
 </body>
 </html>
