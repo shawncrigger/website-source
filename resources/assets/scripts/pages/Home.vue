@@ -17,14 +17,17 @@
 			<p class="text-muted">
 				With countless hours and an unyielding determination and discipline, what began as a fun hobby to learn in my free time has grown into a successful career as a full-time Web Developer.
 			</p>
+			<p class="text-muted">
+				Nowadays, I am a very experienced full stack developer that works with PHP, JavaScript, AngularJS, CSS3 and many other exciting new technologies, to bring my clients dreams to life!
+			</p>
 		</section>
 		<section>
 			<h2 class="title">Tech I use</h2>
 			<p class="text-muted"><em>I'm always excited to learn some new technology!</em></p>
 			<div class="brands row">
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
-					<a href="https://atom.io/" target="_blank">
-						<img src="/images/logos/atom.svg" alt="Atom" class="img-fluid">
+					<a href="https://www.sublimetext.com/3" target="_blank">
+						<img src="/images/logos/sublime-text.svg" alt="Sublime Text 3" class="img-fluid">
 					</a>
 				</div>
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
@@ -81,6 +84,13 @@
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
 					<a href="https://wordpress.org/" target="_blank">
 						<img src="/images/logos/wordpress.svg" alt="Wordpress" class="img-fluid">
+					</a>
+				</div>
+			</div>
+			<div class="brands row">
+				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
+					<a href="https://angularjs.org/" target="_blank">
+						<img src="/images/logos/angular.svg" alt="AngularJS" class="img-fluid">
 					</a>
 				</div>
 			</div>

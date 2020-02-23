@@ -44,8 +44,6 @@
     	</main-layout>
     </div>
     <script src="/js/app.js"></script>
-    <script src="https://cdn.logrocket.io/LogRocket.min.js" crossorigin="anonymous"></script>
-    <script>window.LogRocket && window.LogRocket.init('jmup35/portfolio');</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125782240-1"></script>
     <script>
