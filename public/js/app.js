@@ -46972,7 +46972,9 @@ var render = function() {
       _c("dt", [_vm._v("Email")]),
       _vm._v(" "),
       _c("dd", [
-        _c("a", { attrs: { href: _vm.mailto } }, [_vm._v(_vm._s(_vm.email))])
+        _c("a", { attrs: { target: "_blank", href: _vm.mailto } }, [
+          _vm._v(_vm._s(_vm.email))
+        ])
       ])
     ]),
     _vm._v(" "),
@@ -46980,7 +46982,9 @@ var render = function() {
       _c("dt", [_vm._v("Phone")]),
       _vm._v(" "),
       _c("dd", [
-        _c("a", { attrs: { href: _vm.tel } }, [_vm._v(_vm._s(_vm.phone))])
+        _c("a", { attrs: { target: "_blank", href: _vm.tel } }, [
+          _vm._v(_vm._s(_vm.phone))
+        ])
       ])
     ]),
     _vm._v(" "),

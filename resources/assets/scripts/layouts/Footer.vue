@@ -2,11 +2,11 @@
   <footer>
   	<dl>
   		<dt>Email</dt>
-  		<dd><a :href="mailto">{{email}}</a></dd>
+  		<dd><a target="_blank" :href="mailto">{{email}}</a></dd>
   	</dl>
   	<dl>
   		<dt>Phone</dt>
-  		<dd><a :href="tel">{{phone}}</a></dd>
+  		<dd><a target="_blank" :href="tel">{{phone}}</a></dd>
   	</dl>
   	<dl class="mb-0">
   		<dt>Find me on</dt>
