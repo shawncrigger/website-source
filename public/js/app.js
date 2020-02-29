@@ -2199,6 +2199,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 
 
@@ -47199,30 +47201,6 @@ var staticRenderFns = [
                       "https://www.upwork.com/o/profiles/users/_~012c863ad135fdb85f/k"
                     )
                   ])
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c(
-                "a",
-                {
-                  staticClass: "email",
-                  attrs: {
-                    href:
-                      "mail&#116;o&#58;it&#104;&#105;ppy&#115;&#104;aw%&#54;E&#64;gmai&#37;6C&#46;co&#109;",
-                    target: "_blank"
-                  }
-                },
-                [
-                  _c("span", [
-                    _c("i", {
-                      staticClass:
-                        "fa fa-envelope-open-o fa-stack-1x fa-inverse"
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("span", [_vm._v("ithippyshawn@gmail.com")])
                 ]
               )
             ])

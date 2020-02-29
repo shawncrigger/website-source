@@ -35,12 +35,14 @@
 			                <span>https://www.upwork.com/o/profiles/users/_~012c863ad135fdb85f/k</span>
 			              </a>
 			            </li>
+<!--
 			            <li>
-			              <a href='mail&#116;o&#58;it&#104;&#105;ppy&#115;&#104;aw%&#54;E&#64;gmai&#37;6C&#46;co&#109;' class="email" target="_blank">
+			            	<a href="#" href="javascript:window.location.href = 'mailto:' + ['ithippyshawn','gmail.com'].join('@')" class="email" target="_blank">
 			                <span><i class="fa fa-envelope-open-o fa-stack-1x fa-inverse"></i></span>
-			                <span>ithip&#112;&#121;s&#104;aw&#110;&#64;gma&#105;l&#46;co&#109;</span>
+			                <span>ithippyshawn@gmail.com</span>
 			              </a>
 			            </li>
+-->
 			          </ul>
 					</div>
 					<div class="list-group-item">
