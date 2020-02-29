@@ -13,16 +13,16 @@
 						<h3 class="text-muted">Daily Tasks</h3>
 						<ul class="text-muted">
 							<li>Maintain Expression Engine and Wordpress websites</li>
-						<li>Setting up a new servers</li>
-						<li>building custom web sites</li>
-						<li>migrating websites to new hosts</li>
-						<li>Server and Web maintenance</li>
-						<li>building custom web sites from scratch</li>
-						<li>building API connectors</li>
-						<li>Use Raven Tools to build SEO reports, make changes as per SEO reports</li>
-						<li>Use Litmus to build HTML emails that look correct in all clients</li>
-						<li>Working with Sharpspring CRM to track the users experience on the websites and try to add automated triggers to help market the websites better.</li>
-						<li>Responsive HTML Email Development</li>
+							<li>Setting up a new servers</li>
+							<li>building custom web sites</li>
+							<li>migrating websites to new hosts</li>
+							<li>Server and Web maintenance</li>
+							<li>building custom web sites from scratch</li>
+							<li>building API connectors</li>
+							<li>Use Raven Tools to build SEO reports, make changes as per SEO reports</li>
+							<li>Use Litmus to build HTML emails that look correct in all clients</li>
+							<li>Working with Sharpspring and ZohoCRM to track the users experience on the websites and try to add automated triggers to help market the websites better.</li>
+							<li>Responsive HTML Email Development</li>
 					</ul>
 					</p>
 				</div>

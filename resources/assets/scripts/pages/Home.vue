@@ -90,7 +90,7 @@
 			<div class="brands row">
 				<div class="brand-item col-lg-1 col-md-2 col-sm-2 col-3">
 					<a href="https://angularjs.org/" target="_blank">
-						<img src="/images/logos/angular.svg" alt="AngularJS" class="img-fluid">
+						<img src="/images/logos/angular.svg" alt="AngularJS" width="60" class="img-fluid">
 					</a>
 				</div>
 			</div>

@@ -351,7 +351,7 @@ html {
 
 html {
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -3088,7 +3088,7 @@ pre code {
   opacity: 1;
 }
 
-.form-control:-ms-input-placeholder {
+.form-control::-moz-placeholder {
   color: #636c72;
   opacity: 1;
 }
@@ -5614,8 +5614,10 @@ tbody.collapse.show {
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
+       -moz-column-count: 3;
             column-count: 3;
     -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
             column-gap: 1.25rem;
   }
 
@@ -15322,8 +15324,8 @@ h3.title {
   overflow: hidden;
   -webkit-filter: grayscale(0.5);
           filter: grayscale(0.5);
-  -webkit-box-shadow: 0 8px 45px transparent;
-          box-shadow: 0 8px 45px transparent;
+  -webkit-box-shadow: 0 8px 45px rgba(0, 0, 0, 0);
+          box-shadow: 0 8px 45px rgba(0, 0, 0, 0);
   -webkit-transition: .4s filter, .4s box-shadow, .4s opacity;
   transition: .4s filter, .4s box-shadow, .4s opacity;
 }
