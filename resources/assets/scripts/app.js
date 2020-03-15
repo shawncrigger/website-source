@@ -41,6 +41,7 @@ const routes = [
     },
     { path: '/portfolio/:slug', component: Sitework,
         meta: {
+            sidebar:false,
             title: 'Shawn Crigger - Portfolio',
             metaTags: [{
                 name: 'description',
@@ -55,6 +56,7 @@ const routes = [
     },
     { path: '/portfolio', component: Portfolio,
         meta: {
+            sidebar:false,
             title: 'Shawn Crigger - Portfolio',
             metaTags: [{
                 name: 'description',
@@ -69,6 +71,7 @@ const routes = [
     },
     { path: '/resume', component : Resume,
         meta: {
+            sidebar:false,
             title: 'Shawn Crigger - Full-Stack Developer Resume',
             metaTags: [{
                 name: 'description',
@@ -83,6 +86,7 @@ const routes = [
     },
     { path: '/code-examples', component : CodeExamples,
         meta: {
+            sidebar:false,
             title: 'Code Examples by Shawn Crigger - Full-Stack Developer',
             metaTags: [{
                 name: 'description',
@@ -97,6 +101,7 @@ const routes = [
     },
     { path: '/uses', component : Uses,
         meta: {
+            sidebar:false,
             title: 'Shawn Crigger Uses - Full-Stack Developer Resume',
             metaTags: [{
                 name: 'description',

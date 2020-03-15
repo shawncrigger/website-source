@@ -4,7 +4,23 @@
 			<h1 class="title title--spaced">Experience</h1>
 			<div class="list-group list-group-vertical">
 				<div class="list-group-item">
-					<p class="item-date">2015 - Present</p>
+					<p class="item-date">05/2019 - Present</p>
+					<p class="item-image">
+						<img class="company-logo" src="https://res.cloudinary.com/crigger-assets/image/upload/v1584248518/logos/flightcircle-logo.png" alt="">
+					</p>
+					<p class="item-title">Flight Circle, Inc<br><em>Full Stack developer</em></p>
+					<p class="item-muted clear">
+						Working at Flight Circle has been a great experience, I work with AngularJS and PHP every day implementing new features and finding old bugs in a great application that has a lot of users who depend on a solid application.
+						<h3 class="text-muted">Daily Tasks</h3>
+						<ul class="text-muted">
+							<li>Created and launched an API that feeds a mobile application.</li>
+							<li>Modified the existing file system to use Amazon S3 CDN.</li>
+							<li>Fixed many existing bugs and added many new features.</li>
+						</ul>
+					</p>
+				</div>
+				<div class="list-group-item">
+					<p class="item-date">12/2015 - Present</p>
 					<p class="item-image"><img class="company-logo" src="https://res.cloudinary.com/crigger-assets/image/upload/v1536789563/logos/stm-logo.png" alt=""></p>
 					<p class="item-title">Southern Tide Media<br><em>Full Stack developer</em></p>
 					<p class="text-muted clear">
