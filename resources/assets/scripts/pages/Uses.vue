@@ -28,7 +28,7 @@
                <li>I also build a lot of single website&#39;s thier own <a rel="nofollow" target="_blank" href="https://m.do.co/c/860cf3a53cab">Digital Ocean</a> server.</li>
                <li>For testing responsive emails, I use either <a rel="nofollow" target="_blank" href="https://litmus.com/">Litmus</a> and <a rel="nofollow" target="_blank" href="https://www.emailonacid.com/">Email on ACID</a>.</li>
                <li>And finally for responsive website&#39;s <a rel="nofollow" target="_blank" href="https://www.browserstack.com/">BrowserStack</a></li>
-               <li>Also for responsive website&#39;s I have been using a new browser <a rel="nofollow" target="_blank" href="https://sizzy.co/">Sizzy</a></li>
+               <li>Also for responsive website&#39;s I have been using a new browser <a rel="nofollow" target="_blank" href="https://sizzy.co/?status=accepted&expires=1616682685&p_sid=49831&p_aid=126730&p_link=1947&p_tok=52d3ad64-a9c2-49c2-bb94-916be18b36b1">Sizzy</a></li>
                <li>Another great tool I have found and love is <a rel="nofollow" target="_blank" href="https://www.notion.so/">Notion</a> which is great for project planning, task tracking, notebooking, and it imports from everything popular. Very neat software</li>
                <li>Taking screenshots of the website&#39;s <a rel="nofollow" target="_blank" href="https://browshot.com/">Browshot</a> is a great service that I have been using a lot lately.</li>
             </ul>
